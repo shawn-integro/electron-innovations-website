@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electron Innovations | Custom Software &amp; AI Consulting</title>
+  <meta name="description" content="Electron Innovations builds custom software and helps businesses put AI to work through automation, dashboards, integrations, plugins and AI consulting.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <style>
+    :root {
+      --blue: #2e3192;
+      --blue-dark: #1f2170;
+      --ink: #14152b;
+      --muted: #5a5c73;
+      --line: #e4e5ef;
+      --bg-soft: #f6f7fb;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--ink);
+      line-height: 1.6;
+      background: #fff;
+    }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+    header.hero {
+      padding: 72px 0 64px;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero img { width: 100%; max-width: 440px; height: auto; }
+    .hero h1 {
+      font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+      line-height: 1.25;
+      margin: 36px auto 14px;
+      max-width: 720px;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.125rem;
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--blue);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 13px 26px;
+      border-radius: 8px;
+    }
+    .btn:hover, .btn:focus-visible { background: var(--blue-dark); }
+
+    section.services { background: var(--bg-soft); padding: 72px 0; }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--blue);
+      text-align: center;
+      margin: 0 0 10px;
+    }
+    h2 { text-align: center; font-size: 1.75rem; margin: 0 0 40px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--blue);
+      border-radius: 10px;
+      padding: 28px 26px;
+    }
+    .card h3 { margin: 0 0 10px; font-size: 1.15rem; }
+    .card p { margin: 0; color: var(--muted); }
+
+    section.contact { padding: 72px 0; text-align: center; }
+    .contact h2 { margin-bottom: 14px; }
+    .contact p:not(.eyebrow) { color: var(--muted); margin: 0 0 22px; }
+    .contact a.email {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--blue);
+      text-decoration: none;
+    }
+    .contact a.email:hover { text-decoration: underline; }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 0;
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="wrap">
+      <img src="logo.png" alt="Electron Innovations" width="1200" height="424">
+      <h1>Custom software and practical AI for growing businesses</h1>
+      <p>Since 2019, we've built the tools businesses need and helped their teams put AI to work, from small focused projects to complete systems.</p>
+      <a class="btn" href="mailto:info@electroninnovations.com">Get in touch</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="wrap">
+      <p class="eyebrow">What we do</p>
+      <h2>How we help</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Custom Software</h3>
+          <p>Software built around how your business actually works, designed to fit your processes instead of forcing you into someone else's.</p>
+        </div>
+        <div class="card">
+          <h3>Automation &amp; Integrations</h3>
+          <p>Small, focused projects: workflow automation, dashboards, integrations between the tools you already use, and custom plugins.</p>
+        </div>
+        <div class="card">
+          <h3>AI Consulting</h3>
+          <p>We help you set up your AI systems, shape how your team uses AI day to day, and find the work in your business that can be automated.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk about your project</h2>
+      <p>Tell us what you're working on and we'll get back to you.</p>
+      <a class="email" href="mailto:info@electroninnovations.com">info@electroninnovations.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">&copy; 2019&ndash;2026 Electron Innovations. In business since 2019. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
